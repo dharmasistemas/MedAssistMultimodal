@@ -1,3 +1,5 @@
+# Preservar bytes exatos dos arquivos da entrega em qualquer checkout.
+* -text whitespace=cr-at-eol
 # Evidências com SHA-256: preservar bytes também após checkout no Windows.
 docs/MIGRATION_INVENTORY.json -text whitespace=cr-at-eol
 data/manifests/legacy_medquad/LICENSE.txt -text whitespace=-blank-at-eol,-space-before-tab
