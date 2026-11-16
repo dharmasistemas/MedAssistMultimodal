@@ -1,0 +1,40 @@
+{
+  "name": "MedAssistMultimodal",
+  "target_version": "1.0.0-rc",
+  "required_paths": [
+    ".env.example",
+    "README.md",
+    "requirements.txt",
+    "requirements-dev.txt",
+    "requirements-audio.txt",
+    "requirements-video.txt",
+    "requirements-ui.txt",
+    "requirements-landmarks.txt",
+    "docs/INSTALLATION.md",
+    "docs/DATA_AND_MODELS.md",
+    "docs/RESULTS.md",
+    "docs/DELIVERY.md",
+    "src/medassistmultimodal/prepare_demo.py",
+    "src/medassistmultimodal/desktop_custom.py",
+    "src/medassistmultimodal/desktop_multimodal.py",
+    "src/medassistmultimodal/infrastructure/sqlite_audit_repository.py",
+    "scripts/start_app.ps1",
+    "scripts/prepare_repository.py",
+    "scripts/check_secrets.py"
+  ],
+  "excluded_directories": [
+    "_backup",
+    "_backups",
+    ".git",
+    ".venv",
+    "dist",
+    "data/raw",
+    "data/processed",
+    "models"
+  ],
+  "open_blockers": [
+    "Relatório técnico final sob aprovação do autor e vídeo aguardando URL/acesso/duração.",
+    "Preparação do repositório: conferir seleção, aprovar lista exata de limpeza e definir commit final antes da publicação.",
+    "Instalação em ambiente completamente novo e execução com mídias/modelos externos exigem conferência; limitações de vídeo/A2/N3 permanecem declaradas."
+  ]
+}

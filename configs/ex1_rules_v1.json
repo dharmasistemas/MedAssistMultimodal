@@ -1,0 +1,10 @@
+{
+  "version": "ex1-world-v1",
+  "min_visibility": 0.5,
+  "min_coverage": 0.8,
+  "elbow_min_degrees": 150.0,
+  "arm_peak_min_degrees": 80.0,
+  "bent_fraction": 0.2,
+  "fps": 30.0,
+  "camera": 1
+}

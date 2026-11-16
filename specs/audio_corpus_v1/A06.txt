@@ -1,0 +1,3 @@
+Durante o exercício, senti dor no ombro direito. 
+<break time="1s"/>
+A dor começou quando levantei o braço e continuou depois que parei.

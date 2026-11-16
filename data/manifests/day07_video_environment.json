@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-31",
+  "python": "3.12.15",
+  "numpy_preserved": "2.5.4",
+  "packages": [
+    {
+      "name": "mediapipe",
+      "version": "1.2.0",
+      "download_sha256": "d03d01e1dee45c358d3c41f2a02aca840e469659ead5b2a4222b431069f19d64"
+    },
+    {
+      "name": "opencv-contrib-python",
+      "version": "5.0.0.93",
+      "download_sha256": "461622db95c964652d4d8fda171034961c3de270f78a6095aaad31050771774a"
+    },
+    {
+      "name": "absl-py",
+      "version": "2.5.1",
+      "download_sha256": "721200f2f0e9960f2ca9dc3a2a706b201f5f75d812c158f059cbbe29eeafbdb8"
+    },
+    {
+      "name": "flatbuffers",
+      "version": "25.12.19",
+      "download_sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+    },
+    {
+      "name": "sounddevice",
+      "version": "0.5.6",
+      "download_sha256": "7f4162f514f007b0bf25a3ccfed3f1705bc2ec311888a90232729eec4f57a4f4"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "download_sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "download_sha256": "f53e442b08449d42821fa4a4fba000095af9f62742a500f978a9f557ec44339a"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "download_sha256": "c5c1c68ee401fc98271263410f0e5ce88285abacf7627132914e8adf3d70ff43"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0",
+      "download_sha256": "6e697d94e69f499ff6bebb899cae97a58d5d14f0e1fe9568b43a0248d2f9af8c"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "download_sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.68.0",
+      "download_sha256": "fedc183bdbc3fdbfbdca26e0e04566d089cbb404712509a4e824608e9304cc77"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "download_sha256": "06a6917674de9e0fe3f66f5430787f59a9f2ddb64af9b714eaec547e29ef5c19"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0",
+      "download_sha256": "ff3fe9eb621fbb9db4c4be33ab946f6bac5f98ab50ca8d3260503653656c961b"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "download_sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "3.0.0",
+      "download_sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "download_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.12",
+      "download_sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "download_sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
+    }
+  ]
+}

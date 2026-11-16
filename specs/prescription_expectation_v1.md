@@ -1,0 +1,9 @@
+# Expectativa sintética de prescrição — v1 — 12/11/2026
+
+Plano independente da versão observada: schema_version=prescription-expectation-v1; patient_id, prescription_set_id, before_canonical_sha256, target_version, declared_at e expected_items completos. Apenas dados sintéticos. A referência do teste fica separada do plano de contexto. O plano informa o estado pretendido, não o rótulo de saída.
+
+Comparar expected_items canônicos aos itens observados da versão seguinte: compatible, divergent ou indeterminate. Diferenças incluem presença/ausência e campos exatos. Dose normalizada por decimal exato existente; sem conversão entre unidades. Plano ausente, outra identidade, hash-base/versão divergentes ou declaração posterior à versão observada => indeterminate com motivo. Unidades alteradas no item entre versões ou divergentes entre plano e observado => indeterminate, sem inferir equivalência. Entrada malformada é rejeição, não resultado compatível.
+
+Resultado é divergência do plano sintético, nunca erro terapêutico. Evidênciav2 inclui plano e resultado; apenas divergent gera expectation_candidates/0 pendente de revisão. Resumos e diferenças continuam disponíveis; fontes/identidade sintéticas, confidence nula. Eventos têm IDs estáveis pelo run e hash. Preservar schemas/bytesv1, sem revisão automática ou reprocessamento histórico. Leitor recomputa classificação e valida grupo completo.
+
+Cenários E01(plano15mg,observado15mg),E02(plano15mg,observado20mg),E03(semplano),E04(unidadealterada),E05(planoobsoleto),E06(plano prevê inclusão, item ausente),E07(inclusão não prevista),E08(remoção não prevista). Valores e produtos são demonstração fictícia, sem recomendação. UI oferece novos cenários além deP01–P17. Testes incluem plano errado/extra/duplicado, versões/tempo/unidade, mudanças esperadas/inesperadas, evidência adulterada e revisão/retry.

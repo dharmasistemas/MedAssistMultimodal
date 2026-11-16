@@ -1,0 +1,3 @@
+# Aplicativo desktop e demonstração sintética. Python 3.12 com Tk/Tcl.
+-r requirements-ui.txt
+# Vídeo e Whisper são opcionais: instalar os arquivos específicos quando usados.

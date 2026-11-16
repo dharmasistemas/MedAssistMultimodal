@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-06",
+  "approval": {
+    "reviewer": "project_user",
+    "date": "2026-11-06",
+    "source": "explicit_chat_approval",
+    "statement": "Pode considerar aprovadas as referências v3.",
+    "scope": "ten entries, term occurrence annotations and v3 sentiment labels; not clinical validation or permission for new model calls"
+  },
+  "approved_entries": 10,
+  "approved_occurrences": 20,
+  "draft_preserved": true,
+  "content_labels_offsets_unchanged": true,
+  "sentiment_scoring_gate_verified": true,
+  "model_calls": 0,
+  "sha256": {
+    "specs/text_analysis_references_v3_draft.json": "8930c7b095c9c68483ec924cb0b02564fe636aa78442d2ffd26771404127bb2f",
+    "specs/text_analysis_references_v3.json": "f1e090e6897722fd4ea04413970d71758d3a21c322bee83f8d7c2a96e6173b9a"
+  }
+}

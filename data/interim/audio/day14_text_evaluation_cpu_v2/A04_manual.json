@@ -1,0 +1,131 @@
+{
+  "case_id": "A04",
+  "input_kind": "manual",
+  "input_sha256": "b071fed10073f27f8fd983cfdb922e994e1beff1dd06913c2354d79ff9c22f0e",
+  "input_text": "Ontem senti tontura depois do exercício. Hoje não estou com tontura, mas quero registrar o que aconteceu ontem.",
+  "metrics": {
+    "all_rule_contexts_match": true,
+    "key_phrases": {
+      "f1": 0.0,
+      "fn": 1,
+      "fp": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "provider_error": null,
+    "provider_valid": true,
+    "rule_context": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 2
+    },
+    "sentiment_abstained": false,
+    "sentiment_correct": false,
+    "sentiment_expected_provisional": "mixed",
+    "sentiment_predicted": "neutral"
+  },
+  "ollama_response": {
+    "created_at": "2026-11-06T18:07:34.6669088Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 126,
+    "eval_duration": 22697132000,
+    "load_duration": 7979700,
+    "message": {
+      "content": "{\n  \"sentiment\": \"neutral\",\n  \"sentiment_evidence\": [\n    {\n      \"quote\": \"Ontem senti tontura depois do exercício.\"\n    },\n    {\n      \"quote\": \"Hoje não estou com tontura, mas quero registrar o que aconteceu ontem.\"\n    }\n  ],\n  \"key_phrases\": [\n    {\n      \"quote\": \"senti tontura\"\n    },\n    {\n      \"quote\": \"exercício\"\n    },\n    {\n      \"quote\": \"não estou com tontura\"\n    }\n  ]\n}",
+      "role": "assistant"
+    },
+    "model": "qwen2.5:7b-instruct",
+    "prompt_eval_cached_count": 238,
+    "prompt_eval_count": 276,
+    "prompt_eval_duration": 1794360000,
+    "total_duration": 24505009200
+  },
+  "raw_response": {
+    "content": "{\n  \"sentiment\": \"neutral\",\n  \"sentiment_evidence\": [\n    {\n      \"quote\": \"Ontem senti tontura depois do exercício.\"\n    },\n    {\n      \"quote\": \"Hoje não estou com tontura, mas quero registrar o que aconteceu ontem.\"\n    }\n  ],\n  \"key_phrases\": [\n    {\n      \"quote\": \"senti tontura\"\n    },\n    {\n      \"quote\": \"exercício\"\n    },\n    {\n      \"quote\": \"não estou com tontura\"\n    }\n  ]\n}",
+    "finish_reason": "stop",
+    "input_tokens": 276,
+    "latency_ms": 24507.10240000626,
+    "model": "qwen2.5:7b-instruct",
+    "output_tokens": 126,
+    "provider": "ollama"
+  },
+  "request_options": {
+    "num_ctx": 4096,
+    "num_gpu": 0,
+    "num_predict": 768,
+    "temperature": 0
+  },
+  "result": {
+    "analysis": {
+      "evidence": [
+        {
+          "end": 40,
+          "kind": "sentiment",
+          "quote": "Ontem senti tontura depois do exercício.",
+          "start": 0
+        },
+        {
+          "end": 111,
+          "kind": "sentiment",
+          "quote": "Hoje não estou com tontura, mas quero registrar o que aconteceu ontem.",
+          "start": 41
+        },
+        {
+          "end": 19,
+          "kind": "key_phrase",
+          "quote": "senti tontura",
+          "start": 6
+        },
+        {
+          "end": 39,
+          "kind": "key_phrase",
+          "quote": "exercício",
+          "start": 30
+        },
+        {
+          "end": 67,
+          "kind": "key_phrase",
+          "quote": "não estou com tontura",
+          "start": 46
+        }
+      ],
+      "input_sha256": "b071fed10073f27f8fd983cfdb922e994e1beff1dd06913c2354d79ff9c22f0e",
+      "key_phrases": [
+        "senti tontura",
+        "exercício",
+        "não estou com tontura"
+      ],
+      "model": "qwen2.5:7b-instruct",
+      "sentiment": "neutral",
+      "source": "ollama_qwen"
+    },
+    "mentions": [
+      {
+        "context": "affirmed_historical",
+        "end": 19,
+        "quote": "tontura",
+        "rule_version": "context-terms-v1",
+        "sentence": "Ontem senti tontura depois do exercício",
+        "start": 12,
+        "term": "tontura"
+      },
+      {
+        "context": "negated_current",
+        "end": 67,
+        "quote": "tontura",
+        "rule_version": "context-terms-v1",
+        "sentence": "Hoje não estou com tontura, mas quero registrar o que aconteceu ontem",
+        "start": 60,
+        "term": "tontura"
+      }
+    ],
+    "provider_error": null
+  },
+  "seconds": 24.50808230000257,
+  "split": "development"
+}

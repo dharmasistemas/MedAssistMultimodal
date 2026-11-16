@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "purpose": "local academic speech transcription backend preparation",
+  "model": {
+    "repo": "Systran/faster-whisper-small",
+    "revision": "536b0662742c02347bc0e980a01041f333bce120",
+    "files": [
+      {
+        "name": "config.json",
+        "bytes": 2370,
+        "sha256": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+        "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/config.json"
+      },
+      {
+        "name": "model.bin",
+        "bytes": 483546902,
+        "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+        "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/model.bin"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 2203239,
+        "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+        "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/tokenizer.json"
+      },
+      {
+        "name": "vocabulary.txt",
+        "bytes": 459861,
+        "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+        "url": "https://huggingface.co/Systran/faster-whisper-small/resolve/536b0662742c02347bc0e980a01041f333bce120/vocabulary.txt"
+      }
+    ],
+    "bytes": 486212372,
+    "date": "2026-11-05",
+    "local_path": "data/raw/models/whisper-small-ct2-v1"
+  },
+  "source_repository": "https://github.com/SYSTRAN/faster-whisper",
+  "upstream_model": "OpenAI Whisper small multilingual converted to CTranslate2 by Systran",
+  "runtime": {
+    "backend": "faster-whisper",
+    "version": "1.2.1",
+    "av": "14.2.0",
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 4
+  },
+  "transcription_executed": false,
+  "existing_package_versions_preserved": true,
+  "requirements_sha256": "cf6af1512e14897cf5ed72794569d3e7490c6687dc78721ea507f5b71052cd1e"
+}

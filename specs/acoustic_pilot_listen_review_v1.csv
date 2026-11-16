@@ -1,0 +1,4 @@
+﻿case_id;file;voice_name;voice_id;model;settings;words_preserved_yes_no_uncertain;tags_spoken_yes_no_uncertain;exhalation_audible_yes_no_uncertain;internal_pauses_frequent_yes_no_uncertain;noise_or_artifacts;notes;review_status
+AP01;data/interim/audio/elevenlabs_tests/A02_elevenlabs_continuous_take01.mp3;"Fernanda - Formal; Polite and Direct";7iqXtOF3wl3pomwXFY7G;Eleven v4;Configurações ElevenLabs.png;yes;no;no;no;no;sem comentários;reviewed
+AP02;data/interim/audio/elevenlabs_tests/A02_elevenlabs_exhales_take01.mp3;"Fernanda - Formal; Polite and Direct";7iqXtOF3wl3pomwXFY7G;Eleven v4;Configurações ElevenLabs.png;yes;no;yes;no;no;sem comentários;reviewed
+AP03;data/interim/audio/elevenlabs_tests/A02_elevenlabs_punctuation_take01.mp3;"Fernanda - Formal; Polite and Direct";7iqXtOF3wl3pomwXFY7G;Eleven v4;Configurações ElevenLabs.png;yes;no;yes;yes;no;sem comentários;reviewed

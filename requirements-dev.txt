@@ -1,0 +1,4 @@
+# Full offline suite includes synthetic NPY loader tests.
+-r requirements.txt
+pytest>=8,<10
+-r requirements-landmarks.txt

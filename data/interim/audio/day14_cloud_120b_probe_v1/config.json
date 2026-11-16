@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-06",
+  "started_at": "2026-11-06T15:24:50.870468-03:00",
+  "model": "gpt-oss:120b-cloud",
+  "local_cloud_manifest_digest": "ac7f7a1e778577c4418f6a25e46e0b45dced6746c75422d4b343aa1495a022ed",
+  "ollama_version": {
+    "version": "0.40.15"
+  },
+  "order": [
+    "A03",
+    "A05",
+    "A08"
+  ],
+  "input_kind": "manual",
+  "cloud_authorized_by_user": true,
+  "fictional_text_only": true,
+  "temperature": 0,
+  "num_predict": 768,
+  "think": "low",
+  "timeout_seconds": 180,
+  "retries": 0,
+  "automatic_model_switch": false,
+  "forced_json_schema": false,
+  "prompt_sha256": "1a37e8d6e979443979d82b801bc706fda28e827d0f234af4b55fbb98fb0ac29d",
+  "input_sha256": {
+    "A03": "9c93dec5a9114ec3571fdcf8c3c5a69e0c0d9b2ddf6052797284cff0becdeb3e",
+    "A05": "019de72d8207723b11518374d49b1610dd0b34a2eb350b80180a9dc6911856c8",
+    "A08": "b1c64f179c6c7b79d9dd11f9626f4157c6e0ab7157d83bdbd42a2c7a34fd930a"
+  },
+  "references_sha256": "9fb0194341a5a7188db42d7117e9dcf04fd00303e5a92a4fcfce83dcba4f2f0e",
+  "runner_sha256": "0908edee784aa75b976ddfa9f0333f0bfae7cef68c38fe9d6feb33fa8bdfa8f2",
+  "authorization": "User reports coordinator permits any LLM; authorizes cloud tests on 2026-11-06"
+}

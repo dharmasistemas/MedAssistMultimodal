@@ -1,0 +1,288 @@
+{
+  "version": "text-analysis-v3-references-draft1",
+  "date": "2026-11-06",
+  "status": "pending_user_review_before_inference",
+  "occurrence_annotation_method": "machine_generated_literal_spans_pending_review_not_independent_ground_truth",
+  "cases": {
+    "A03_manual": {
+      "case_id": "A03",
+      "input_kind": "manual",
+      "input_sha256": "9c93dec5a9114ec3571fdcf8c3c5a69e0c0d9b2ddf6052797284cff0becdeb3e",
+      "input_text": "Hoje não senti dor no ombro e não tive falta de ar durante o exercício. Completei a sequência sem esses sintomas.",
+      "terms": [
+        {
+          "term": "dor",
+          "term_start": 15,
+          "term_end": 18,
+          "literal_term": "dor"
+        },
+        {
+          "term": "falta de ar",
+          "term_start": 39,
+          "term_end": 50,
+          "literal_term": "falta de ar"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "development",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A03_whisper": {
+      "case_id": "A03",
+      "input_kind": "whisper",
+      "input_sha256": "770eb7d17b3ad54f704628a2718db6425034f74ef81cfabf13e4c996506216ff",
+      "input_text": "Hoje, não senti dor no ombro e não tive falta de ar durante o exercício. Completei a sequência sem esses sintomas.",
+      "terms": [
+        {
+          "term": "dor",
+          "term_start": 16,
+          "term_end": 19,
+          "literal_term": "dor"
+        },
+        {
+          "term": "falta de ar",
+          "term_start": 40,
+          "term_end": 51,
+          "literal_term": "falta de ar"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "development",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A04_manual": {
+      "case_id": "A04",
+      "input_kind": "manual",
+      "input_sha256": "b071fed10073f27f8fd983cfdb922e994e1beff1dd06913c2354d79ff9c22f0e",
+      "input_text": "Ontem senti tontura depois do exercício. Hoje não estou com tontura, mas quero registrar o que aconteceu ontem.",
+      "terms": [
+        {
+          "term": "tontura",
+          "term_start": 12,
+          "term_end": 19,
+          "literal_term": "tontura"
+        },
+        {
+          "term": "tontura",
+          "term_start": 60,
+          "term_end": 67,
+          "literal_term": "tontura"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "development",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A04_whisper": {
+      "case_id": "A04",
+      "input_kind": "whisper",
+      "input_sha256": "de18177a122e9bb3d16b20bdf56931f1bb393ec70c018d82b785feedd05ed428",
+      "input_text": "Ontem, senti tontura depois do exercício. Hoje, não estou com tontura, mas quero registrar o que aconteceu ontem.",
+      "terms": [
+        {
+          "term": "tontura",
+          "term_start": 13,
+          "term_end": 20,
+          "literal_term": "tontura"
+        },
+        {
+          "term": "tontura",
+          "term_start": 62,
+          "term_end": 69,
+          "literal_term": "tontura"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "development",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A05_manual": {
+      "case_id": "A05",
+      "input_kind": "manual",
+      "input_sha256": "019de72d8207723b11518374d49b1610dd0b34a2eb350b80180a9dc6911856c8",
+      "input_text": "Se eu sentir falta de ar, vou contar ao profissional. Neste momento, não estou com falta de ar.",
+      "terms": [
+        {
+          "term": "falta de ar",
+          "term_start": 13,
+          "term_end": 24,
+          "literal_term": "falta de ar"
+        },
+        {
+          "term": "falta de ar",
+          "term_start": 83,
+          "term_end": 94,
+          "literal_term": "falta de ar"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "development",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A05_whisper": {
+      "case_id": "A05",
+      "input_kind": "whisper",
+      "input_sha256": "019de72d8207723b11518374d49b1610dd0b34a2eb350b80180a9dc6911856c8",
+      "input_text": "Se eu sentir falta de ar, vou contar ao profissional. Neste momento, não estou com falta de ar.",
+      "terms": [
+        {
+          "term": "falta de ar",
+          "term_start": 13,
+          "term_end": 24,
+          "literal_term": "falta de ar"
+        },
+        {
+          "term": "falta de ar",
+          "term_start": 83,
+          "term_end": 94,
+          "literal_term": "falta de ar"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "development",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A08_manual": {
+      "case_id": "A08",
+      "input_kind": "manual",
+      "input_sha256": "b1c64f179c6c7b79d9dd11f9626f4157c6e0ab7157d83bdbd42a2c7a34fd930a",
+      "input_text": "Depois de levantar o braço, senti falta de ar e tontura. Parei o movimento e estou contando o que percebi.",
+      "terms": [
+        {
+          "term": "falta de ar",
+          "term_start": 34,
+          "term_end": 45,
+          "literal_term": "falta de ar"
+        },
+        {
+          "term": "tontura",
+          "term_start": 48,
+          "term_end": 55,
+          "literal_term": "tontura"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "evaluation",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A08_whisper": {
+      "case_id": "A08",
+      "input_kind": "whisper",
+      "input_sha256": "592ef39cadbfc272832c9997da7e60a2bb316a39d8e391b5e009c972dfd4ef27",
+      "input_text": "Depois de levantar o braço, senti falta de ar, de tontura, parei o movimento e estou contando o que percebi.",
+      "terms": [
+        {
+          "term": "falta de ar",
+          "term_start": 34,
+          "term_end": 45,
+          "literal_term": "falta de ar"
+        },
+        {
+          "term": "tontura",
+          "term_start": 50,
+          "term_end": 57,
+          "literal_term": "tontura"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "evaluation",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A12_manual": {
+      "case_id": "A12",
+      "input_kind": "manual",
+      "input_sha256": "b1c64f179c6c7b79d9dd11f9626f4157c6e0ab7157d83bdbd42a2c7a34fd930a",
+      "input_text": "Depois de levantar o braço, senti falta de ar e tontura. Parei o movimento e estou contando o que percebi.",
+      "terms": [
+        {
+          "term": "falta de ar",
+          "term_start": 34,
+          "term_end": 45,
+          "literal_term": "falta de ar"
+        },
+        {
+          "term": "tontura",
+          "term_start": 48,
+          "term_end": 55,
+          "literal_term": "tontura"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "evaluation",
+      "current_usage": "known_corpus_not_independent_holdout"
+    },
+    "A12_whisper": {
+      "case_id": "A12",
+      "input_kind": "whisper",
+      "input_sha256": "3781701f8f37e1110a41282968b4511c318c27cb553180e36936666e419b29fc",
+      "input_text": "Depois de levantar o braço, senti falta de ar e tontura, parei o movimento e estou contando o que percebi.",
+      "terms": [
+        {
+          "term": "falta de ar",
+          "term_start": 34,
+          "term_end": 45,
+          "literal_term": "falta de ar"
+        },
+        {
+          "term": "tontura",
+          "term_start": 48,
+          "term_end": 55,
+          "literal_term": "tontura"
+        }
+      ],
+      "sentiment": "neutral",
+      "sentiment_rationale": "Relato factual sem avaliação positiva/negativa explícita do narrador, conforme política linguística v3.",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "annotated_on": "2026-11-06",
+      "review_status": "draft",
+      "sentiment_review_status": "pending",
+      "previous_split": "evaluation",
+      "current_usage": "known_corpus_not_independent_holdout"
+    }
+  }
+}

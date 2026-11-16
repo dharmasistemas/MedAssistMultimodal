@@ -1,0 +1,3 @@
+O meu irmão comentou que sentiu dor no peito. 
+<break time="1s"/>
+Eu não senti dor no peito nesta sessão.

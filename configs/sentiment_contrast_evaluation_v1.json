@@ -1,0 +1,71 @@
+{
+  "approval": "reports/SENTIMENT_CONTRAST_APPROVAL_2026-11-12.json",
+  "attempts_planned": 6,
+  "automatic_model_switch": false,
+  "class_counts": {
+    "mixed": 1,
+    "negative": 2,
+    "neutral": 1,
+    "positive": 2
+  },
+  "clinical_validation": false,
+  "cloud_fictional_text_only": true,
+  "expected_model_manifest_digest": "ac7f7a1e778577c4418f6a25e46e0b45dced6746c75422d4b343aa1495a022ed",
+  "frozen_hashes": {
+    "data/interim/audio/day14_cloud_120b_probe_v1/config.json": "541d0d7b98abf1d2ffc99eaae22c6a87e2ea81b6ec002fbe66056b88e770c0c9",
+    "reports/SENTIMENT_CONTRAST_APPROVAL_2026-11-12.json": "55572b0c17081537f697a37740140138de2dcafa20b9f8e9bdb1f8cc404a3d04",
+    "scripts/evaluate_sentiment_contrast.py": "669773f43505c11d00a6d45f5725d5e4506e9d820bc6175722ca01760cdbb607",
+    "specs/sentiment_contrast_references_v1.json": "8c49c24d8eb9dca454064250e87d1503538548283de74110643ac38a26fc25ab",
+    "specs/sentiment_contrast_v1/S01.txt": "a31527bc5671206d1b370d3644c9855aedef30934ae779a3ec353de529fee359",
+    "specs/sentiment_contrast_v1/S02.txt": "c7a3155a29c60649771b4c32414fd6b1b4dc050180c6bd961febc08adeb4f923",
+    "specs/sentiment_contrast_v1/S03.txt": "3c82c0eaf43b181eb8b7873b2f03f41a187ba8026d1484db91f820f770dc8268",
+    "specs/sentiment_contrast_v1/S04.txt": "6251de712c36242ba14faa1eaaf2129cdb98212adcfbdffdf55c5e7b541c634f",
+    "specs/sentiment_contrast_v1/S05.txt": "5036fd5aa812736a81b102db11fce22c7a39ed86b866308fbbe26f903871ff1c",
+    "specs/sentiment_contrast_v1/S06.txt": "455cff4c8af48073bfe27f47e6c893fb89750845df04c8e0289cfb64e3e9e34a",
+    "specs/text_analysis_v3.md": "74fb52c5bebb87b2aaa76ecb221d92dbcae1798e9cf5d666e868b7fb4b2d6cbf",
+    "specs/text_analysis_v3.schema.json": "17dbaece383811613ba34831d6b644c82f321cf290b31d3209b3f0db836fb847",
+    "src/medassistmultimodal/application/text_analysis_v3_prompt_v2.py": "f18600cc71f2d447957e92935ef0e915975e02c1419b90451287f24b4af38677",
+    "src/medassistmultimodal/domain/text_analysis_v3.py": "9fc1a186d7a4720b58582bc38908a0313930ac908f650b0a84da8fe5eea361e5",
+    "src/medassistmultimodal/domain/text_context.py": "a5378267440b636154b6b790479ac4f1ad3cc55f5bab1f0f7757508c22a968b3",
+    "src/medassistmultimodal/domain/text_evaluation.py": "0ffc9f049090141ab7b5eaf74548db72a9e7e32ad7d366a2b0ae9811bbdf7388",
+    "src/medassistmultimodal/providers/ollama.py": "65ba8a55c58ea7f15d9c355532fb3d9ac82b3fae49091a05322963d329fd387c",
+    "src/medassistmultimodal/providers/ollama_text_v3_prompt_v2.py": "ef15e837c084c3e9f9c1c14b590d0e363637866af7cc287f18aa2a5f1680641d"
+  },
+  "independent_validation": false,
+  "input_hashes": {
+    "S01": "a31527bc5671206d1b370d3644c9855aedef30934ae779a3ec353de529fee359",
+    "S02": "c7a3155a29c60649771b4c32414fd6b1b4dc050180c6bd961febc08adeb4f923",
+    "S03": "3c82c0eaf43b181eb8b7873b2f03f41a187ba8026d1484db91f820f770dc8268",
+    "S04": "6251de712c36242ba14faa1eaaf2129cdb98212adcfbdffdf55c5e7b541c634f",
+    "S05": "5036fd5aa812736a81b102db11fce22c7a39ed86b866308fbbe26f903871ff1c",
+    "S06": "455cff4c8af48073bfe27f47e6c893fb89750845df04c8e0289cfb64e3e9e34a"
+  },
+  "inputs_are_transcriptions": false,
+  "model": "gpt-oss:120b-cloud",
+  "order": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "output": "data/interim/audio/sentiment_contrast_gpt_oss_v1",
+  "plan_sha256": "4eeb7ac8502e10d277108d74d0d0017abe32674a417f44dea461bdac1e0eb400",
+  "preparation_model_requests": 0,
+  "prepared_on": "2026-11-12",
+  "prompt_sha256": "a659184eaab0054df11c08596848a0e5d7c0ab728b448bf7fb32aa019462feb4",
+  "prompt_version": "text-v3-prompt-v2",
+  "references": "specs/sentiment_contrast_references_v1.json",
+  "retries": 0,
+  "runtime": {
+    "backend": "gpt_oss_cloud",
+    "max_tokens": 1536,
+    "timeout_seconds": 180.0
+  },
+  "source": "ollama_cloud",
+  "temperature": 0,
+  "think": "low",
+  "unknown_reference_included": false,
+  "version": "sentiment-contrast-evaluation-plan-v1"
+}

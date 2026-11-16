@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medassistmultimodal:text-analysis:v3",
+  "title": "MedAssistMultimodal text analysis v3 response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sentiment", "sentiment_evidence", "terms"],
+  "properties": {
+    "sentiment": {
+      "enum": ["positive", "neutral", "negative", "mixed", "unknown"]
+    },
+    "sentiment_evidence": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/evidence"}
+    },
+    "terms": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term", "quote"],
+        "properties": {
+          "term": {"enum": ["dor", "dor no peito", "falta de ar", "tontura"]},
+          "quote": {"$ref": "#/$defs/quote"}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"sentiment": {"not": {"const": "unknown"}}}},
+      "then": {"properties": {"sentiment_evidence": {"minItems": 1}}}
+    }
+  ],
+  "$defs": {
+    "quote": {"type": "string", "minLength": 1, "maxLength": 300, "pattern": "\\S"},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quote"],
+      "properties": {"quote": {"$ref": "#/$defs/quote"}}
+    }
+  }
+}

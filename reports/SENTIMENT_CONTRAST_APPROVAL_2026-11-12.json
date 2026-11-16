@@ -1,0 +1,14 @@
+{
+  "approval": {
+    "date": "2026-11-12",
+    "reviewer": "project_user",
+    "source": "explicit_chat_approval",
+    "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas.",
+    "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization"
+  },
+  "sha256": {
+    "specs/sentiment_contrast_references_v1.json": "8c49c24d8eb9dca454064250e87d1503538548283de74110643ac38a26fc25ab",
+    "specs/sentiment_contrast_references_v1_draft_2026-11-12.json": "b07571152dd1eefbdea0f4ba0e34f932d2049f9db85efedd30c5c1a6e1def1fc"
+  },
+  "model_requests": 0
+}

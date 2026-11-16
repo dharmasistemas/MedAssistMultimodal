@@ -1,0 +1,89 @@
+{
+  "case_id": "A05",
+  "input_kind": "whisper",
+  "input_sha256": "019de72d8207723b11518374d49b1610dd0b34a2eb350b80180a9dc6911856c8",
+  "input_text": "Se eu sentir falta de ar, vou contar ao profissional. Neste momento, não estou com falta de ar.",
+  "metrics": {
+    "all_rule_contexts_match": true,
+    "key_phrases": {
+      "f1": 0.0,
+      "fn": 1,
+      "fp": 0,
+      "precision": null,
+      "recall": 0.0,
+      "tp": 0
+    },
+    "provider_error": "LLMProviderInvalidResponseError",
+    "provider_valid": false,
+    "rule_context": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 2
+    },
+    "sentiment_abstained": false,
+    "sentiment_correct": false,
+    "sentiment_expected_provisional": "neutral",
+    "sentiment_predicted": null
+  },
+  "ollama_response": {
+    "created_at": "2026-11-06T18:08:24.4799657Z",
+    "done": true,
+    "done_reason": "stop",
+    "eval_count": 65,
+    "eval_duration": 12106794000,
+    "load_duration": 7503500,
+    "message": {
+      "content": "{\n  \"sentiment\": \"neutral\",\n  \"sentiment_evidence\": [\n    {\n      \"quote\": \"Neste momento, não estou com falta de ar.\"\n    }\n  ],\n  \"key_phrases\": [\n    {\n      \"quote\": \"falta de ar\"\n    }\n  ]\n}",
+      "role": "assistant"
+    },
+    "model": "qwen2.5:7b-instruct",
+    "prompt_eval_cached_count": 268,
+    "prompt_eval_count": 269,
+    "prompt_eval_duration": 210819000,
+    "total_duration": 12331485100
+  },
+  "raw_response": {
+    "content": "{\n  \"sentiment\": \"neutral\",\n  \"sentiment_evidence\": [\n    {\n      \"quote\": \"Neste momento, não estou com falta de ar.\"\n    }\n  ],\n  \"key_phrases\": [\n    {\n      \"quote\": \"falta de ar\"\n    }\n  ]\n}",
+    "finish_reason": "stop",
+    "input_tokens": 269,
+    "latency_ms": 12333.055199997034,
+    "model": "qwen2.5:7b-instruct",
+    "output_tokens": 65,
+    "provider": "ollama"
+  },
+  "request_options": {
+    "num_ctx": 4096,
+    "num_gpu": 0,
+    "num_predict": 768,
+    "temperature": 0
+  },
+  "result": {
+    "analysis": null,
+    "mentions": [
+      {
+        "context": "conditional",
+        "end": 24,
+        "quote": "falta de ar",
+        "rule_version": "context-terms-v1",
+        "sentence": "Se eu sentir falta de ar, vou contar ao profissional",
+        "start": 13,
+        "term": "falta de ar"
+      },
+      {
+        "context": "negated_current",
+        "end": 94,
+        "quote": "falta de ar",
+        "rule_version": "context-terms-v1",
+        "sentence": "Neste momento, não estou com falta de ar",
+        "start": 83,
+        "term": "falta de ar"
+      }
+    ],
+    "provider_error": "LLMProviderInvalidResponseError"
+  },
+  "seconds": 12.333591800008435,
+  "split": "development"
+}

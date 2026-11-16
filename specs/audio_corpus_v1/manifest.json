@@ -1,0 +1,327 @@
+{
+  "schema_version": "simulated-audio-plan-v1",
+  "created_on": "2026-11-03",
+  "planned_day_date": "2026-11-04",
+  "status": "planned_no_recordings",
+  "language": "pt-BR",
+  "origin": "internally_authored_fictional_consultation_reports",
+  "external_dataset": false,
+  "patient_identity": "fictional_scenario_only_no_dataset_link",
+  "case_count": 12,
+  "recorded_count": 0,
+  "development_count": 6,
+  "evaluation_count": 6,
+  "split_limitations": "script groups separated; speaker independence not established; known scripted evaluation only",
+  "cases": [
+    {
+      "case_id": "A01",
+      "split": "development",
+      "script_group": "G01",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A01.wav",
+      "prompt_path": "A01.txt",
+      "prompt_sha256": "3c693bb93756062ad63e2d3208d0fc41c06d56a76a97aa0b6f09ff82cb97d3a4",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "neutral",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": []
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A02",
+      "split": "development",
+      "script_group": "G02",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A02.wav",
+      "prompt_path": "A02.txt",
+      "prompt_sha256": "e8ed162bbd0fd4dbc786c251fc3d1c2c625a0affd4d84bfee4af199c6121387f",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "negative",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "dor",
+            "context": "affirmed_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A03",
+      "split": "development",
+      "script_group": "G03",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A03.wav",
+      "prompt_path": "A03.txt",
+      "prompt_sha256": "d6cfeb2ef50833b7fd121e08bcb16f713b4797295ab0f05bfe7383ab487bd651",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "neutral",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "dor",
+            "context": "negated_current"
+          },
+          {
+            "term": "falta de ar",
+            "context": "negated_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A04",
+      "split": "development",
+      "script_group": "G04",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A04.wav",
+      "prompt_path": "A04.txt",
+      "prompt_sha256": "75ecdede102cbda9ebfd213088e9f6988ec7c5759d7dfe21f927f5fb7a8fb98f",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "mixed",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "tontura",
+            "context": "affirmed_historical"
+          },
+          {
+            "term": "tontura",
+            "context": "negated_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A05",
+      "split": "development",
+      "script_group": "G05",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A05.wav",
+      "prompt_path": "A05.txt",
+      "prompt_sha256": "358484d12af15077d8d4d88326d3dff176a1b4c882a8b5e5b845e0e1c3b503d5",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "neutral",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "falta de ar",
+            "context": "conditional"
+          },
+          {
+            "term": "falta de ar",
+            "context": "negated_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A06",
+      "split": "development",
+      "script_group": "G02",
+      "condition": "light_background_noise",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A06.wav",
+      "prompt_path": "A06.txt",
+      "prompt_sha256": "e8ed162bbd0fd4dbc786c251fc3d1c2c625a0affd4d84bfee4af199c6121387f",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "negative",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "dor",
+            "context": "affirmed_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A07",
+      "split": "evaluation",
+      "script_group": "G06",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A07.wav",
+      "prompt_path": "A07.txt",
+      "prompt_sha256": "1457943719591370c28c2bcbbccc89537a0d12f4a0f21d075dace11c9e8e48cd",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "positive",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": []
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A08",
+      "split": "evaluation",
+      "script_group": "G07",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A08.wav",
+      "prompt_path": "A08.txt",
+      "prompt_sha256": "667915f22e0141f33fe54663dbbd4c8463fcf1272864548d279c003dceca1622",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "negative",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "falta de ar",
+            "context": "affirmed_current"
+          },
+          {
+            "term": "tontura",
+            "context": "affirmed_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A09",
+      "split": "evaluation",
+      "script_group": "G08",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A09.wav",
+      "prompt_path": "A09.txt",
+      "prompt_sha256": "be24cfb57a75312d70ff8a29e06cdc25b978c19beba4e7ddf259f779fc8d1e02",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "neutral",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "dor no peito",
+            "context": "third_party"
+          },
+          {
+            "term": "dor no peito",
+            "context": "negated_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A10",
+      "split": "evaluation",
+      "script_group": "G09",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A10.wav",
+      "prompt_path": "A10.txt",
+      "prompt_sha256": "579552714e0bdaf1a562f3c46ba07d38846cbd35754f113c98d884d3015b4ea9",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "mixed",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "dor",
+            "context": "affirmed_earlier_in_session"
+          },
+          {
+            "term": "dor",
+            "context": "negated_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A11",
+      "split": "evaluation",
+      "script_group": "G10",
+      "condition": "quiet",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A11.wav",
+      "prompt_path": "A11.txt",
+      "prompt_sha256": "137f0ccbcda50d79a4649b6678c4b3bf68e8fdb262fc84029748dc6a893b7cf3",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "negative",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "dor",
+            "context": "affirmed_current"
+          },
+          {
+            "term": "tontura",
+            "context": "negated_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    },
+    {
+      "case_id": "A12",
+      "split": "evaluation",
+      "script_group": "G07",
+      "condition": "light_background_noise",
+      "planned_audio_path": "data/raw/audio/simulated_v1/A12.wav",
+      "prompt_path": "A12.txt",
+      "prompt_sha256": "667915f22e0141f33fe54663dbbd4c8463fcf1272864548d279c003dceca1622",
+      "reference_status": "provisional_script_not_verified_against_audio",
+      "text_analysis_reference": {
+        "sentiment_intended_text_label": "negative",
+        "label_status": "author_intended_not_clinical_or_voice_emotion",
+        "mentions": [
+          {
+            "term": "falta de ar",
+            "context": "affirmed_current"
+          },
+          {
+            "term": "tontura",
+            "context": "affirmed_current"
+          }
+        ]
+      },
+      "recording_status": "pending",
+      "speaker_ref": null,
+      "consent_ref": null,
+      "audio_sha256": null
+    }
+  ]
+}

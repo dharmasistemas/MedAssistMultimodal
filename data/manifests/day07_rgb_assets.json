@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-31",
+  "authorization": "User explicitly approved ZIP, one development recording, OpenCV/MediaPipe and Full model",
+  "source": "https://zenodo.org/records/23018128",
+  "license": "Academic/non-profit non-commercial research; cite DOI 10.48550/arXiv.2609.35726; do not redistribute media",
+  "archive": {
+    "url": "https://zenodo.org/api/records/23018128/files/videos.zip/content",
+    "published_size": 8433934055,
+    "published_md5": "f21dc596f4ef84e21060a43a65c2f30b",
+    "full_archive_hash_verified": false,
+    "acquisition": "HTTP Range 206, selected member CRC verified",
+    "range_bytes_received": 162090043,
+    "unused_partial_preserved": true
+  },
+  "video": {
+    "path": "data/raw/rehab26/videos/v1/P-0236ac1b114742088a082d0b6163bae1_ex1_cam1.mp4",
+    "participant_ref": "P-0236ac1b114742088a082d0b6163bae1",
+    "group": "development",
+    "exercise": 1,
+    "camera": 1,
+    "size": 195639329,
+    "sha256": "db597f3d540b2e344fdbec6c75ad50386bb831c306408a5cc7b0c681981cee55",
+    "zip_crc32": "3dbaba00"
+  },
+  "model": {
+    "path": "data/raw/models/pose_landmarker_full.task",
+    "url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task",
+    "size": 9398198,
+    "sha256": "5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1",
+    "license_reference": "https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker#models"
+  },
+  "other_members_extracted": false
+}

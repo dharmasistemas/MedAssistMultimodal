@@ -1,0 +1,42 @@
+{
+  "version": "day10-exploratory-v1",
+  "status": "planned_not_implemented",
+  "date": "2026-11-02",
+  "clinical_validation": false,
+  "clinical_alerts_from_v1_proxies": false,
+  "source": "distributed_npy_world_3d",
+  "participant_ref": "P-0236ac1b114742088a082d0b6163bae1",
+  "group": "development",
+  "camera": 1,
+  "expected_frames": 15016,
+  "expected_reference_repetitions": 110,
+  "fps": 30.0,
+  "quality": {
+    "min_visibility": 0.5,
+    "max_consecutive_angle_change_degrees": 30.0,
+    "flag_both_endpoints": true,
+    "compare_original_valid_neighbors_only": true,
+    "iterative_filtering": false,
+    "interpolation": false,
+    "smoothing": false
+  },
+  "segmentation": {
+    "measure": "right_arm_trunk",
+    "low_inclusive_degrees": 30.0,
+    "high_inclusive_degrees": 60.0,
+    "confirmation_frames": 3,
+    "min_duration_frames_inclusive": 15,
+    "max_duration_frames_inclusive": 450,
+    "return_confirmation_grace_frames": 2,
+    "allowed_gap_frames": 0,
+    "eof_completes_cycle": false
+  },
+  "evaluation": {
+    "min_temporal_iou_inclusive": 0.5,
+    "one_to_one_matching": true,
+    "boundary_reporting_tolerance_frames_inclusive": 15,
+    "low_quality_references_remain_in_recall_denominator": true,
+    "clinical_performance_acceptance_target": null,
+    "independent_evaluation": false
+  }
+}

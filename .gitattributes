@@ -1,0 +1,15 @@
+# Evidências com SHA-256: preservar bytes também após checkout no Windows.
+docs/MIGRATION_INVENTORY.json -text whitespace=cr-at-eol
+data/manifests/legacy_medquad/LICENSE.txt -text whitespace=-blank-at-eol,-space-before-tab
+data/manifests/legacy_medquad/readme.txt -text whitespace=-blank-at-eol,-space-before-tab
+
+# Planos congelados verificam os bytes exatos, inclusive finais de linha.
+src/** -text whitespace=cr-at-eol
+scripts/** -text whitespace=cr-at-eol
+specs/** -text whitespace=cr-at-eol
+configs/** -text whitespace=cr-at-eol
+data/** -text whitespace=cr-at-eol
+reports/** -text whitespace=cr-at-eol
+
+# Espaço histórico neste arquivo integra um plano congelado: preservar bytes.
+src/medassistmultimodal/providers/ollama.py -text whitespace=cr-at-eol,-blank-at-eol

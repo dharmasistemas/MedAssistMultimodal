@@ -1,0 +1,3 @@
+# Optional NPY loader dependency; installed with explicit approval on 2026-10-28.
+# Baseline runtime remains stdlib; use the project Conda environment.
+numpy==2.5.4

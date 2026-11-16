@@ -1,0 +1,3 @@
+Fiz o exercício com calma e terminei a sequência. 
+<break time="1s"/>
+Agora estou sentada e vou relatar como foi.

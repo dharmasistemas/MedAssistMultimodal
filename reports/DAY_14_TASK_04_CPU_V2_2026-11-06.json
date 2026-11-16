@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-06",
+  "task": "day14-task4-cpu-v2-complement",
+  "inventory_files_before_edits": 1079,
+  "attempts": 10,
+  "responses": 10,
+  "valid": 4,
+  "invalid_evidence": 6,
+  "timeouts": 0,
+  "total_seconds": 282.95463790002395,
+  "metrics_reconstructed_verified": true,
+  "tests": {
+    "passed": 613,
+    "subtests_passed": 341
+  },
+  "tts_support_permission_reported": true,
+  "tts_processed": false,
+  "task5_executed": false,
+  "sha256": {
+    "scripts/evaluate_day14_text_cpu_v2.py": "06d7466be4948ac339863b2d9683b8b6b084079b03e53d40901b0161394a497e",
+    "docs/DAY_14_TASK_04_CPU_V2.md": "ba942af05d4ebfe4960fe6a2e5767cda8254e2bca207146ba68b8ae448dd2293",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A03_manual.json": "14f4fb169cee88ae9b39130b9e15833050e62bc39c543b2d29d76ef4aac61690",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A03_whisper.json": "72c98a55b824cd4f7fcaf897bfd0f5ab5c3f246caf6557e1c57a4162e298db28",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A04_manual.json": "2718fc04670d95f58b3ad04f97080e845c9cbd20074445d470b2024add1ddbf9",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A04_whisper.json": "9c7a471432d6c4a4fa5e4f7649f2acf0579c64cb5457179b1c5fc1d54a1864c0",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A05_manual.json": "5341b7d306f5631199bb715b07d294ab313de7ebf134374f92073ee581067c68",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A05_whisper.json": "3dd3a65ba8e7ce89c1a64b29712fb056cc5f10c209678f1d0cdaa2d52823cc61",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A08_manual.json": "97322bf2b34ed0b754566e52918d46ed90cb872ff915d38723096b6f4586169f",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A08_whisper.json": "c58c5dc7c66f7557a6d971c4aa6459612b4c71b5fe46a80884e6082c41d3fbed",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A12_manual.json": "e290c8920d14e622ed04001ae1bcedd874c8af54e07da6f55a316845ab40ba3c",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/A12_whisper.json": "b2fc42483dad5c66a2e6a1fea8b2c5a2c5c9feea15fbcad32b7a374f7a0eae8f",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/run_config.json": "9a97d711e2f5c762302c5b0cc4d923bb4538508ddc080fcf2661c70645fa2588",
+    "data/interim/audio/day14_text_evaluation_cpu_v2/summary.json": "ff61eddbbf2a86feb156210a2f524d00e3ec7ddbb031604079595524e192a83e"
+  }
+}

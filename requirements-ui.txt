@@ -1,0 +1,2 @@
+# Aparência opcional da UI simplificada; confirmado no ambiente em 14/11/2026.
+customtkinter==6.0.0

@@ -1,0 +1,7 @@
+# Instalar separadamente: dependências opcionais do pipeline RGB.
+-r requirements-landmarks.txt
+mediapipe==1.2.0
+opencv-contrib-python==5.0.0.93
+
+# Redimensionamento de qualidade dos frames na interface Tk.
+Pillow==13.0.0

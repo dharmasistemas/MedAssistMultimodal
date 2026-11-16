@@ -1,0 +1,102 @@
+{
+  "version": "text-evaluation-references-v1",
+  "date": "2026-11-06",
+  "status": "fixed_before_qwen_corpus_execution",
+  "key_phrase_matching": "exact literal quote lowercased; unique configured symptom phrases; report other valid literal phrases separately as unmatched predictions",
+  "sentiment_ambiguity": "Factual symptom reports may be neutral or negative; A04 mixed is author-intended, not consensus. Report disagreements and unknown separately without relabeling after results.",
+  "cases": {
+    "A03": {
+      "split": "development",
+      "sentiment": "neutral",
+      "mentions": [
+        {
+          "term": "dor",
+          "context": "negated_current"
+        },
+        {
+          "term": "falta de ar",
+          "context": "negated_current"
+        }
+      ],
+      "expected_key_phrases": [
+        "dor",
+        "falta de ar"
+      ],
+      "sentiment_label_status": "author_intended_text_valence_provisional_not_clinical"
+    },
+    "A04": {
+      "split": "development",
+      "sentiment": "mixed",
+      "mentions": [
+        {
+          "term": "tontura",
+          "context": "affirmed_historical"
+        },
+        {
+          "term": "tontura",
+          "context": "negated_current"
+        }
+      ],
+      "expected_key_phrases": [
+        "tontura"
+      ],
+      "sentiment_label_status": "author_intended_text_valence_provisional_not_clinical"
+    },
+    "A05": {
+      "split": "development",
+      "sentiment": "neutral",
+      "mentions": [
+        {
+          "term": "falta de ar",
+          "context": "conditional"
+        },
+        {
+          "term": "falta de ar",
+          "context": "negated_current"
+        }
+      ],
+      "expected_key_phrases": [
+        "falta de ar"
+      ],
+      "sentiment_label_status": "author_intended_text_valence_provisional_not_clinical"
+    },
+    "A08": {
+      "split": "evaluation",
+      "sentiment": "negative",
+      "mentions": [
+        {
+          "term": "falta de ar",
+          "context": "affirmed_current"
+        },
+        {
+          "term": "tontura",
+          "context": "affirmed_current"
+        }
+      ],
+      "expected_key_phrases": [
+        "falta de ar",
+        "tontura"
+      ],
+      "sentiment_label_status": "author_intended_text_valence_provisional_not_clinical"
+    },
+    "A12": {
+      "split": "evaluation",
+      "sentiment": "negative",
+      "mentions": [
+        {
+          "term": "falta de ar",
+          "context": "affirmed_current"
+        },
+        {
+          "term": "tontura",
+          "context": "affirmed_current"
+        }
+      ],
+      "expected_key_phrases": [
+        "falta de ar",
+        "tontura"
+      ],
+      "sentiment_label_status": "author_intended_text_valence_provisional_not_clinical"
+    }
+  }
+}

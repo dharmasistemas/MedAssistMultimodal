@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Ambientes e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Notebooks e IDEs
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Dados e artefatos gerados
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+models/
+artifacts/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Temporários locais
+.codex-pptx/
+tmp/
+_backups/
+
+# Diretório privado: nunca inspecionar ou versionar
+/_backup/
+# Persistência e mídia locais
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.zip
+*.m4a
+*.webm
+*.mkv
+*.flac
+*.ogg
+*.onnx
+*.tflite
+*.task
+*.safetensors
+*.bin
+*.whl
+/dist/
+/reports/presentation_build_*/
+/docs/presentations/
+/docs/prototypes/
+*.env.local
+data/synthetic/*
+!data/synthetic/.gitkeep

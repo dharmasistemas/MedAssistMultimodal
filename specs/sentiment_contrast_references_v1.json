@@ -1,0 +1,254 @@
+{
+  "approval": {
+    "date": "2026-11-12",
+    "reviewer": "project_user",
+    "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+    "source": "explicit_chat_approval",
+    "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+  },
+  "audio_generated": false,
+  "cases": {
+    "S01": {
+      "annotated_on": "2026-11-12",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "approval": {
+        "date": "2026-11-12",
+        "reviewer": "project_user",
+        "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+        "source": "explicit_chat_approval",
+        "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+      },
+      "case_id": "S01",
+      "current_usage": "small_authored_contrast_set_not_clinical_validation",
+      "input_file": "specs/sentiment_contrast_v1/S01.txt",
+      "input_kind": "authored_fictional_text",
+      "input_sha256": "a31527bc5671206d1b370d3644c9855aedef30934ae779a3ec353de529fee359",
+      "input_text": "Mesmo com dor no ombro, fiquei contente com a atenção recebida e confiante na continuidade das sessões.",
+      "review_status": "approved",
+      "sentiment": "positive",
+      "sentiment_evidence_reference": [
+        {
+          "quote": "fiquei contente com a atenção recebida e confiante na continuidade das sessões.",
+          "quote_end": 103,
+          "quote_start": 24
+        }
+      ],
+      "sentiment_rationale": "Avaliação positiva explícita da atenção e da continuidade; a menção de dor não determina sentimento negativo.",
+      "sentiment_review_status": "approved",
+      "terms": [
+        {
+          "literal_term": "dor",
+          "term": "dor",
+          "term_end": 13,
+          "term_start": 10
+        }
+      ]
+    },
+    "S02": {
+      "annotated_on": "2026-11-12",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "approval": {
+        "date": "2026-11-12",
+        "reviewer": "project_user",
+        "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+        "source": "explicit_chat_approval",
+        "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+      },
+      "case_id": "S02",
+      "current_usage": "small_authored_contrast_set_not_clinical_validation",
+      "input_file": "specs/sentiment_contrast_v1/S02.txt",
+      "input_kind": "authored_fictional_text",
+      "input_sha256": "c7a3155a29c60649771b4c32414fd6b1b4dc050180c6bd961febc08adeb4f923",
+      "input_text": "O atendimento de hoje foi acolhedor e a explicação do exercício me deixou satisfeita. Não tive tontura durante a sessão.",
+      "review_status": "approved",
+      "sentiment": "positive",
+      "sentiment_evidence_reference": [
+        {
+          "quote": "O atendimento de hoje foi acolhedor e a explicação do exercício me deixou satisfeita.",
+          "quote_end": 85,
+          "quote_start": 0
+        }
+      ],
+      "sentiment_rationale": "Acolhimento e satisfação são avaliações positivas explícitas; ausência de tontura é informação factual separada.",
+      "sentiment_review_status": "approved",
+      "terms": [
+        {
+          "literal_term": "tontura",
+          "term": "tontura",
+          "term_end": 102,
+          "term_start": 95
+        }
+      ]
+    },
+    "S03": {
+      "annotated_on": "2026-11-12",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "approval": {
+        "date": "2026-11-12",
+        "reviewer": "project_user",
+        "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+        "source": "explicit_chat_approval",
+        "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+      },
+      "case_id": "S03",
+      "current_usage": "small_authored_contrast_set_not_clinical_validation",
+      "input_file": "specs/sentiment_contrast_v1/S03.txt",
+      "input_kind": "authored_fictional_text",
+      "input_sha256": "3c82c0eaf43b181eb8b7873b2f03f41a187ba8026d1484db91f820f770dc8268",
+      "input_text": "Fiquei decepcionado com a consulta porque minhas dúvidas não foram esclarecidas. Hoje não senti dor.",
+      "review_status": "approved",
+      "sentiment": "negative",
+      "sentiment_evidence_reference": [
+        {
+          "quote": "Fiquei decepcionado com a consulta porque minhas dúvidas não foram esclarecidas.",
+          "quote_end": 80,
+          "quote_start": 0
+        }
+      ],
+      "sentiment_rationale": "Decepção explícita com a consulta; ausência de dor não torna o sentimento positivo.",
+      "sentiment_review_status": "approved",
+      "terms": [
+        {
+          "literal_term": "dor",
+          "term": "dor",
+          "term_end": 99,
+          "term_start": 96
+        }
+      ]
+    },
+    "S04": {
+      "annotated_on": "2026-11-12",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "approval": {
+        "date": "2026-11-12",
+        "reviewer": "project_user",
+        "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+        "source": "explicit_chat_approval",
+        "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+      },
+      "case_id": "S04",
+      "current_usage": "small_authored_contrast_set_not_clinical_validation",
+      "input_file": "specs/sentiment_contrast_v1/S04.txt",
+      "input_kind": "authored_fictional_text",
+      "input_sha256": "6251de712c36242ba14faa1eaaf2129cdb98212adcfbdffdf55c5e7b541c634f",
+      "input_text": "A demora para iniciar a sessão me irritou, e saí insatisfeito com a organização do atendimento. Durante a espera, senti falta de ar.",
+      "review_status": "approved",
+      "sentiment": "negative",
+      "sentiment_evidence_reference": [
+        {
+          "quote": "A demora para iniciar a sessão me irritou, e saí insatisfeito com a organização do atendimento.",
+          "quote_end": 95,
+          "quote_start": 0
+        }
+      ],
+      "sentiment_rationale": "Irritação e insatisfação explícitas com a organização; relato de falta de ar não é o fundamento do rótulo.",
+      "sentiment_review_status": "approved",
+      "terms": [
+        {
+          "literal_term": "falta de ar",
+          "term": "falta de ar",
+          "term_end": 131,
+          "term_start": 120
+        }
+      ]
+    },
+    "S05": {
+      "annotated_on": "2026-11-12",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "approval": {
+        "date": "2026-11-12",
+        "reviewer": "project_user",
+        "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+        "source": "explicit_chat_approval",
+        "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+      },
+      "case_id": "S05",
+      "current_usage": "small_authored_contrast_set_not_clinical_validation",
+      "input_file": "specs/sentiment_contrast_v1/S05.txt",
+      "input_kind": "authored_fictional_text",
+      "input_sha256": "5036fd5aa812736a81b102db11fce22c7a39ed86b866308fbbe26f903871ff1c",
+      "input_text": "Gostei da forma como o profissional explicou o exercício, mas fiquei aborrecida com a falta de privacidade na sala. Relatei dor no peito no início da consulta.",
+      "review_status": "approved",
+      "sentiment": "mixed",
+      "sentiment_evidence_reference": [
+        {
+          "quote": "Gostei da forma como o profissional explicou o exercício, mas fiquei aborrecida com a falta de privacidade na sala.",
+          "quote_end": 115,
+          "quote_start": 0
+        }
+      ],
+      "sentiment_rationale": "Avaliações positiva (explicação) e negativa (privacidade) explícitas no mesmo narrador; não decorre de mudança de sintomas.",
+      "sentiment_review_status": "approved",
+      "terms": [
+        {
+          "literal_term": "dor no peito",
+          "term": "dor no peito",
+          "term_end": 136,
+          "term_start": 124
+        }
+      ]
+    },
+    "S06": {
+      "annotated_on": "2026-11-12",
+      "annotator": "Codex_draft_not_independent_human_review",
+      "approval": {
+        "date": "2026-11-12",
+        "reviewer": "project_user",
+        "scope": "six fictional texts, sentiment labels/evidence and term references; no model execution authorization",
+        "source": "explicit_chat_approval",
+        "statement": "A tarefa anterior foi inspecionada. As referências estão aprovadas."
+      },
+      "case_id": "S06",
+      "current_usage": "small_authored_contrast_set_not_clinical_validation",
+      "input_file": "specs/sentiment_contrast_v1/S06.txt",
+      "input_kind": "authored_fictional_text",
+      "input_sha256": "455cff4c8af48073bfe27f47e6c893fb89750845df04c8e0289cfb64e3e9e34a",
+      "input_text": "A consulta começou às nove horas. Fiz duas séries do exercício e informei que ontem tive tontura, mas hoje não tive tontura.",
+      "review_status": "approved",
+      "sentiment": "neutral",
+      "sentiment_evidence_reference": [
+        {
+          "quote": "A consulta começou às nove horas.",
+          "quote_end": 33,
+          "quote_start": 0
+        }
+      ],
+      "sentiment_rationale": "Relato factual sem avaliação positiva ou negativa explícita; ontem/hoje e negação não tornam o texto misto.",
+      "sentiment_review_status": "approved",
+      "terms": [
+        {
+          "literal_term": "tontura",
+          "term": "tontura",
+          "term_end": 96,
+          "term_start": 89
+        },
+        {
+          "literal_term": "tontura",
+          "term": "tontura",
+          "term_end": 123,
+          "term_start": 116
+        }
+      ]
+    }
+  },
+  "class_counts": {
+    "mixed": 1,
+    "negative": 2,
+    "neutral": 1,
+    "positive": 2
+  },
+  "clinical_validation": false,
+  "date": "2026-11-12",
+  "evidence_policy": "reference_quotes_are_examples_not_exact_required_model_quotes; valid alternative literal evidence requires semantic assessment",
+  "fictional": true,
+  "inputs_are_transcriptions": false,
+  "model_requests": 0,
+  "policy": "specs/text_analysis_v3.md",
+  "prompt_sha256": "a659184eaab0054df11c08596848a0e5d7c0ab728b448bf7fb32aa019462feb4",
+  "prompt_version": "text-v3-prompt-v2",
+  "purpose": "A5_explicit_textual_valence_contrast",
+  "status": "approved_by_project_user",
+  "terms_annotation": "existing_longest_match_TERM_PATTERN_offsets_python_start_inclusive_end_exclusive",
+  "unknown_reference_included": false,
+  "version": "sentiment-contrast-references-v1"
+}

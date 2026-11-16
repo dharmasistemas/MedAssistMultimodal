@@ -1,0 +1,57 @@
+{
+  "version": "acoustic-pilot-listen-references-v1",
+  "date": "2026-11-12",
+  "checklist": "specs/acoustic_pilot_listen_review_v1.csv",
+  "checklist_sha256": "0b271a67ceb8bf54de2e9352c0c408a486f156c439ad57dfa30a96af4a6bb289",
+  "delimiter": ";",
+  "cases": {
+    "AP01": {
+      "path": "data/interim/audio/elevenlabs_tests/A02_elevenlabs_continuous_take01.mp3",
+      "sha256": "b7a913ec59f7fa66c53327cc2e96ce9ae1822c6d420652aa0c60ab5373c956fd",
+      "source": "user_completed_checklist",
+      "words_preserved": "yes",
+      "tags_spoken": "no",
+      "exhalation_audible": "no",
+      "frequent_internal_pauses": "no",
+      "noise_or_artifacts": "no",
+      "notes": "sem comentários",
+      "review_status": "reviewed_by_project_user",
+      "expected_pause_pattern": "not_frequent",
+      "temporal_reference_status": "pending",
+      "intervals": null
+    },
+    "AP02": {
+      "path": "data/interim/audio/elevenlabs_tests/A02_elevenlabs_exhales_take01.mp3",
+      "sha256": "23465dd15784ba703d6a2e48800c5e3b1d2b02f438daa2b6d7ff33ebb2e22e7d",
+      "source": "user_completed_checklist",
+      "words_preserved": "yes",
+      "tags_spoken": "no",
+      "exhalation_audible": "yes",
+      "frequent_internal_pauses": "no",
+      "noise_or_artifacts": "no",
+      "notes": "sem comentários",
+      "review_status": "reviewed_by_project_user",
+      "expected_pause_pattern": "not_frequent",
+      "temporal_reference_status": "pending",
+      "intervals": null
+    },
+    "AP03": {
+      "path": "data/interim/audio/elevenlabs_tests/A02_elevenlabs_punctuation_take01.mp3",
+      "sha256": "dfb08dde10fe2d8f37611ec1b28f931f7eabbf36a88ed1829d3db997a68c1ece",
+      "source": "user_completed_checklist",
+      "words_preserved": "yes",
+      "tags_spoken": "no",
+      "exhalation_audible": "yes",
+      "frequent_internal_pauses": "yes",
+      "noise_or_artifacts": "no",
+      "notes": "sem comentários",
+      "review_status": "reviewed_by_project_user",
+      "expected_pause_pattern": "frequent_pauses",
+      "temporal_reference_status": "pending",
+      "intervals": null
+    }
+  },
+  "clinical_validation": false,
+  "model_results": null,
+  "warning": "Clip-level listening labels only; exhalation is not a pause; no medical inference or temporal ground truth yet"
+}
