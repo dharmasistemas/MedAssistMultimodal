@@ -17,10 +17,11 @@ def main() -> int:
         "project": "MedAssistMultimodal",
         "status": "baseline_offline",
         "azure_status": "CONTINGENCIA_NAO_ATIVADA",
-        "audio_target": "whisper_local_qwen2.5:7b-instruct",
-        "real_audio_adapters": "pendentes",
+        "audio_target": "whisper_local; gpt-oss:120b-cloud opcional",
+        "real_audio_adapters": "implementados; dependencias/modelos locais necessarios",
         "llm_required": False,
-        "video_audio_alerts": "pendente de implementação",
+        "video_audio_alerts": "implementados nos recortes documentados; sem validacao clinica",
+        "desktop_command": "python -B -m medassistmultimodal.desktop_multimodal",
     }, ensure_ascii=False))
     return 0
 
