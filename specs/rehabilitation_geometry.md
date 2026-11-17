@@ -79,4 +79,4 @@ domain/rehabilitation.py implementa as três medidas e qualidade independente po
 resultado. A API exige CoordinateSpace e min_visibility; WORLD_3D exige vertical
 explícita para o tronco. Retorna Measurement com valor ou motivo de não analisável.
 As descrições prospectivas acima registram a convenção inicial; implementação e
-limites atuais: [guia](../docs/DAY_04_TASKS_04_06.md).
+limites atuais: guia (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).

@@ -1,0 +1,38 @@
+{
+  "source": "data/interim/audio/desktop_workspaces_v1/0779a007-3dba-443f-885f-5d79aa274ed4/audio.sqlite3",
+  "source_sha256": "29a102f786ff333eed640c88f4f3e060ca4b92214ac08b32c4493fbca3ade625",
+  "database": "data/interim/audio/desktop_workspaces_v1/484768d2-58c9-467e-9816-2fa664fa24fc/audio.sqlite3",
+  "sessions": [
+    "0db7fafc-fee0-5baa-ab59-1b59bec1b939",
+    "187b7c74-d929-5fb2-82fd-f1f103716fae",
+    "187f9411-71e3-5ab1-a321-1c52317d855b",
+    "2d6355b0-d125-522e-b056-9319e2469fce",
+    "4e08454a-67d1-58fd-b14b-9ae1cdcca8cf",
+    "a236b3f2-14f5-4ab6-9a92-61107cfb23eb",
+    "d173dea7-0d98-5988-910b-8c8a7e260c3e",
+    "db11026c-682d-5f28-8763-38576e82f705"
+  ],
+  "events": 19,
+  "audit_records": 12,
+  "evidence_dependencies": {
+    "data/interim/audio/desktop_workspaces_v1/8d8ce8d6-ef81-47f6-a647-7cdb41f57b07/vitals_00c769a5-6a46-4148-9cda-951ff0beb42a.json": "ae7cc9a21b48837e128a21049a670a7095e35a638ae221b7d7ed37047f1af172",
+    "data/interim/audio/desktop_workspaces_v1/e78e5b27-bd4d-4a62-95c7-231c918cb262/048d7f7c-fa10-4a03-811a-0e5dfbe87a72.json": "ed441c0d32cffa001646774d1e1df111a049ad378b81719d7e6c46ac600de9b9",
+    "data/interim/audio/desktop_workspaces_v1/1a943131-cc8a-47e9-8ed5-92a0b138e47f/video_4a0685a0-7c46-4be6-990d-50964d87b038.json": "2da7d03869f6e3d29f6331ab01915374ce52894285b5de9f77b5768d992c9d48",
+    "data/interim/audio/desktop_workspaces_v1/1a943131-cc8a-47e9-8ed5-92a0b138e47f/video_f994cc36-b1fb-4981-b44f-2ff0277ad5db.json": "3b054575ce79db8001f21f57f5645da2f4504d8b3e1e18ba178ad6619e767739",
+    "data/interim/audio/desktop_workspaces_v1/a62bde4e-4ce6-4c3d-bfaf-e867474659ce/prescriptions_2c8b3401-fcc8-41fc-a8e1-4b80e622a358.json": "3c0c2b15d0025daea386cb00c149ba15f4a68cc5395d2fb8228799b68c450ab0",
+    "data/interim/audio/desktop_workspaces_v1/a62bde4e-4ce6-4c3d-bfaf-e867474659ce/prescriptions_fea0e155-93dc-4a0d-aa53-a746c8730bcf.json": "6adfe40ba5ad8ad58d26a51377c49abab97ac3bef3005572e2c2bdfdbdd6eb7b",
+    "data/interim/audio/desktop_workspaces_v1/a62bde4e-4ce6-4c3d-bfaf-e867474659ce/prescriptions_1e5b3312-d4b3-4536-8c3c-5d71d6972e5e.json": "599f9bc55b4ce1a8fe7ca40a05920fac0269eda327b2958fc2d29eb9f0e1abcc",
+    "data/interim/audio/desktop_workspaces_v1/0779a007-3dba-443f-885f-5d79aa274ed4/acoustics_59da4f1f-d7d8-4954-ad6a-46d6a35dedf4.json": "a383f8c4f7abe4d6a8ee36a0005f7939a99669a5da5c3b6edff34ffc2d0672b3"
+  },
+  "independent_bundle": false,
+  "note": "Evidence references remain unchanged; retain referenced files and original media/assets. Review states and nominal/audit times preserved.",
+  "all_details_verified": true,
+  "new_model_calls": 0,
+  "report_preview_verified": true,
+  "ui_readonly_check": {
+    "patient_sessions": 6,
+    "both_time_labels_visible_in_result": true,
+    "callback_errors": [],
+    "database_unchanged": true
+  }
+}

@@ -14,4 +14,4 @@ Consolidação dos experimentos locais até 16/11/2026. Sem validação clínica
 
 Lotes e corpus não são independentes nem representam pacientes diferentes. Termo não comprova sintoma afirmado. Sentimento não é diagnóstico. Vídeo tem qualidade/cobertura insuficientes. Alterações vocais médicas e movimentação durante internação não foram demonstradas.
 
-O relatório acadêmico em aprovação documenta metodologia, fontes por experimento e trabalhos futuros. Fontes independentes não são apresentadas como um único atendimento correlacionado.
+O relatório acadêmico final aprovado documenta metodologia, fontes por experimento e trabalhos futuros. Fontes independentes não são apresentadas como um único atendimento correlacionado.

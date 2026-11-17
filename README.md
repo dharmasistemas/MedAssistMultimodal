@@ -70,4 +70,11 @@ Os testes usam fixtures temporárias/providers injetados, sem inferência real o
 - [Resultados e limitações](docs/RESULTS.md).
 - [Situação dos entregáveis](docs/DELIVERY.md).
 
-O relatório técnico está em revisão do autor e o vídeo será indicado por link no YouTube. O audiovisual fica fora do repositório. A instalação em ambiente completamente novo deve ser conferida antes de declarar a distribuição final congelada.
+O relatório técnico final foi aprovado pelo autor; o link do vídeo demonstrativo está indicado abaixo. O audiovisual fica fora do repositório. A instalação em ambiente completamente novo deve ser conferida antes de declarar a distribuição final congelada.
+
+## Entrega final
+
+- [Relatório técnico aprovado](docs/TECHNICAL_REPORT_FINAL_REVIEW_V1_0.md).
+- [Vídeo demonstrativo](https://youtu.be/LkcmBPmCIVY).
+
+Os resultados e as limitações estão detalhados no relatório. As mídias e bases locais não integram este repositório.

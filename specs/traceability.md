@@ -20,11 +20,11 @@ Azure F0 é contingência desativada; configuração histórica preservada em
 infrastructure/azure_f0_config.py e docs/AZURE_F0_SETUP.md. Substituição por Whisper
 e Qwen autorizada; não há dependência de assinatura no caminho principal.
 
-Calendário vigente: [plano revisado em 31/10](../docs/IMPLEMENTATION_PLAN.md).
+Calendário vigente: plano revisado em 31/10 (referência do acervo local, não distribuída).
 Dias executados e aceites de qualidade devem ser conferidos separadamente.
 
 ## Dia 8 — avaliação experimental
 Métricas por desvio com abstenção implementadas em domain/evaluation.py. Relatórios
 NPY development/evaluation separados e RGB development ampliado conforme guia
-[Dia 8](../docs/DAY_08_TASKS.md). Não há avaliação clínica aprovada: regras v1 com
+Dia 8 (referência do acervo local, não distribuída). Não há avaliação clínica aprovada: regras v1 com
 baixa precisão/recall e cobertura limitada. Sem classificação global do Ex1.

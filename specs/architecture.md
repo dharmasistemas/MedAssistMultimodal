@@ -43,20 +43,20 @@ as novas tabelas/repositórios ainda não foram implementados.
 
 Dia 2 / tarefa 2: inicializador SQLite multimodal v1 e repositório de sessões
 implementados. A tabela de eventos faz parte da estrutura; repositório de eventos
-permanece pendente. [Estado e verificação](../docs/DAY_02_TASK_02.md).
+permanece pendente. Estado e verificação (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 
 Dia 2 / tarefa 3: repositório de eventos implementado; identidade recuperada da
 sessão via JOIN. Caso de uso transacional conjunto e CLI persistida continuam
-pendentes. [Conferência](../docs/DAY_02_TASK_03.md).
+pendentes. Conferência (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 
 Dia 2 / tarefa 4: RegisterMultimodalSession usa portas de aplicação;
 SQLiteMultimodalUnitOfWork implementa a transação compartilhada de sessão,
-eventos e auditoria. [Verificação](../docs/DAY_02_TASK_04.md).
+eventos e auditoria. Verificação (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 CLI com persistência/exportação permanece pendente.
 
 Dia 2 / tarefa 5: demo/persistence.py conecta CLI, cadastro explícito de fixtures,
 caso de uso e repositórios; list/export abrem conexão read-only. CLI original sem
-argumentos preservada. [Guia](../docs/DAY_02_TASK_05.md).
+argumentos preservada. Guia (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 
 Dia 4 / tarefas 1–3: domain/geometry.py oferece primitivas puras, com fixtures
 sintéticas e testes. [Convenções](rehabilitation_geometry.md). Medidas por landmarks,
@@ -64,15 +64,15 @@ qualidade/visibilidade e classificação de movimento ainda não implementadas.
 
 Dia 4 / tarefas 4–6: domain/rehabilitation.py implementa medidas e qualidade por
 resultado; demo/rehabilitation.py demonstra poses sintéticas. Sem decisão de alerta
-ou integração temporal. [Fechamento](../reports/DAY_04_CLOSEOUT_2026-10-26.md).
+ou integração temporal. Fechamento (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 
 Dia 5 / tarefa 4: infrastructure/rehab26_landmarks.py lê NPY com NumPy opcional,
 valida v1 e converte frames por perfil explícito; unidade 2D desconhecida bloqueia
-geometria. Cópias de domínio, sem exposição do array mapeado. [Guia](../docs/DAY_05_TASK_04.md).
+geometria. Cópias de domínio, sem exposição do array mapeado. Guia (referência do acervo local, não distribuída).
 
 Dia 5 / tarefa 5: domain/temporal_alignment.py calcula cobertura inclusiva sem I/O;
 infrastructure/rehab26_alignment.py adapta disponibilidade bruta por frame.
-[Conferência real](../reports/REHAB26_SEGMENT_ALIGNMENT_2026-10-28.md).
+Conferência real (referência do acervo local, não distribuída).
 Cobertura estrutural não implica prontidão geométrica, qualidade clínica ou sincronização RGB.
 
 ## Dia 7 — 31/10/2026

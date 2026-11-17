@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "simulated_dpi_scale": 1.0,
+      "alpha": 1.0
+    },
+    {
+      "simulated_dpi_scale": 1.5,
+      "alpha": 1.0
+    },
+    {
+      "simulated_dpi_scale": 1.25,
+      "alpha": 1.0
+    }
+  ],
+  "callback_errors": [],
+  "physical_second_monitor_tested": false,
+  "model_calls": 0,
+  "database_changes": false,
+  "regression_note": "Rodada completa sem resumo final; processo próprio pytest PID21252 identificado e interrompido no encerramento. Não declarada aprovada.",
+  "targeted_opacity_tests": {
+    "passed": 8,
+    "seconds": 2.81
+  }
+}

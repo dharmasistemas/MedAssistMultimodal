@@ -242,14 +242,14 @@ Repositório exige FK ativa e versão 1; leituras validam representação canôn
 Conflitos de conteúdo geram ValueError. Violações FK/CHECK preservam IntegrityError
 SQLite; falha de acesso/bloqueio preserva OperationalError para tratamento pelo
 futuro caso de uso. O chamador deve desfazer a transação quando a operação falha.
-Guia de conferência: [tarefa 2](../docs/DAY_02_TASK_02.md).
+Guia de conferência: tarefa 2 (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 
 ## Estado após a tarefa 3
 
 SQLiteEventRepository implementado, com save/get_by_id/list_for_session,
 identidade via JOIN, validação contra sessão, revisão inicial pendente,
 idempotência e leitura canônica. Checagem FK/versão compartilhada com sessões.
-Sem alteração de schema v1. [Guia e testes](../docs/DAY_02_TASK_03.md).
+Sem alteração de schema v1. Guia e testes (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)).
 Os estados anteriores deste documento registram a evolução por tarefa; o estado
 atual inclui repositórios de sessões e eventos, sem o caso de uso da tarefa 4.
 
@@ -258,11 +258,11 @@ atual inclui repositórios de sessões e eventos, sem o caso de uso da tarefa 4.
 RegisterMultimodalSession e SQLiteMultimodalUnitOfWork implementados. Operação
 atômica de sessão/eventos/auditoria, correlation_id fornecido pelo chamador e
 payload determinístico. Sem alteração de schema v1 ou fluxo de revisão.
-[Guia e testes](../docs/DAY_02_TASK_04.md). CLI persistida/exportação pendentes.
+Guia e testes (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)). CLI persistida/exportação pendentes.
 
 ## Estado após a tarefa 5
 
 CLI com persistência, listagem read-only e exportação JSON exclusiva implementada.
-[Guia](../docs/DAY_02_TASK_05.md). A demonstração prepara cadastros fictícios e
+Guia (guia histórico removido na [limpeza autorizada](../docs/REPOSITORY_CLEANUP_EXECUTED_2026-11-17.md)). A demonstração prepara cadastros fictícios e
 reutiliza o caso de uso transacional; validação em bancos descartáveis.
 Fechamento integrado do dia 2 permanece para a tarefa 6.

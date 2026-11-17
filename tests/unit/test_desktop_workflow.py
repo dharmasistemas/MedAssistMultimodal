@@ -128,6 +128,18 @@ def pump(root,app):
     root.update();assert not app.worker.busy
 
 
+@pytest.fixture(autouse=True)
+def finalize_tk_cycles_on_owner_thread():
+    # Destroyed windows may leave variable/callback cycles after a test returns.
+    # Collect them here before a later worker can trigger Python's cyclic GC.
+    # Keep the real four-second worker deadline rather than hiding a stalled Tk finalizer.
+    import gc
+    assert get_ident() == __import__('threading').main_thread().ident
+    gc.collect()
+    yield
+    gc.collect()
+
+
 @pytest.fixture(scope='module')
 def tk_runtime():
     try:root=tk.Tk()
